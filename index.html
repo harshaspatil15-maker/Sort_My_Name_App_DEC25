@@ -45,6 +45,51 @@
 #msg{
               font-size:40px;
 }
+        @media (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .ff {
+        width: 80%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    input[type="text"] {
+        font-size: 0.9rem;
+        padding: 8px;
+         width:80%;
+    }
+
+     input[type="submit"]{
+        width: 30%;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .ff {
+        width: 100%%;
+    }
+
+    input[type="submit"]{
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 1366px) {
+    input[type="text"]{
+        width: 85%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}
+
 </style>
 </head>
 <body>
@@ -99,3 +144,4 @@
 </body>
 
 </html>
+
